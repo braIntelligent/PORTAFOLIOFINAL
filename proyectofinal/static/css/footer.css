@@ -1,0 +1,47 @@
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconos {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px white solid; */
+    width: 30%;
+    margin: 20px;
+}
+
+.marca-personal {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    /* border: 1px white solid; */
+}
+
+h2 {
+    font-family: monospace;
+    color: white;
+    margin-top: 0.5rem;
+    letter-spacing: 20px;
+}
+
+h3 {
+    font-family: monospace;
+    color: white;
+    letter-spacing: 20px;
+    margin: 20px;
+}
+
+img {
+    margin-right: 10px;
+}

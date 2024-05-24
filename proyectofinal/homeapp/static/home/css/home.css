@@ -1,0 +1,67 @@
+.central {
+    width: 100%;
+    height: 800px;
+    /* border: 1px black solid; */
+    background-image: url('/static/home/img/humano1.jpg');
+    background-size: cover ;
+    background-position-y: -250px;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.softskills, .hardskills {
+    height: 400px;
+    width: 90%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border-radius: 10px; */
+    box-shadow: 4px 4px 14px black;
+    transition: transform 0.3s ease-in;
+}
+
+.softskills:hover,.hardskills:hover {
+    transform: scale(1.02);
+}
+
+.softskills h2, .hardskills h2 {
+    font-family: monospace;
+    margin: 1.0rem;
+    color: black;
+    letter-spacing: 10px;
+}
+
+.contenido {
+    border-top: 1px solid black;
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid red; */
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+
+
+.cajas {
+    border: 1px solid black;
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+}
