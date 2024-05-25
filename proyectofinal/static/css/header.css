@@ -5,6 +5,7 @@ nav {
     justify-content: space-between;
     background-color: white;
     position: fixed;
+    z-index: 100;
 }
 
 .izquierdo {
