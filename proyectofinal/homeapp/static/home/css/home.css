@@ -5,6 +5,7 @@
     background-image: url('/static/home/img/humano1.jpg');
     background-size: cover ;
     background-position-y: -250px;
+    padding-top: 200px;
 }
 
 .main {
@@ -19,7 +20,6 @@
     width: 90%;
     border: 1px solid black;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     /* border-radius: 10px; */

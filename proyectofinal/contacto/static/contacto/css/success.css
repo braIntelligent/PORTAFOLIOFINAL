@@ -1,0 +1,11 @@
+.isadora {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.isadora h1 {
+    font-family: monospace;
+    letter-spacing: 20px;
+}
